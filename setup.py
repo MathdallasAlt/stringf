@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import codecs
 import os
 
-VERSION = '0.0.2'
+VERSION = '0.0.3'
 DESCRIPTION = 'Functions for strings'
 LONG_DESCRIPTION = '''
 A package that has several functions to work with strings and English words.

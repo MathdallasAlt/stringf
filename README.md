@@ -1,6 +1,5 @@
-This is a Python module providing some functions related to lists and strings.
-### Disclamer-The is to manage
-###Download at https://pypi.org/project/stringf/
+This is the code of the Python module stringf.
+Download at https://pypi.org/project/stringf/
 
 Functions-
 # New!

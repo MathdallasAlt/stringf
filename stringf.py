@@ -67,6 +67,8 @@ class string:
         elif word[-2]=="o"and word[-1]=="n":
             word.pop(-1)
             word[-2]="a"
+        elif word[-1]=="h":
+            word.append("es")
         else:
             word.append("s")
         strl=""

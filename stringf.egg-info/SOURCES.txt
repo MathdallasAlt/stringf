@@ -1,0 +1,7 @@
+setup.py
+stringf/__init__.py
+stringf/stringf.py
+stringf.egg-info/PKG-INFO
+stringf.egg-info/SOURCES.txt
+stringf.egg-info/dependency_links.txt
+stringf.egg-info/top_level.txt

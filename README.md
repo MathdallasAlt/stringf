@@ -4,7 +4,7 @@ Download at https://pypi.org/project/stringf/
 Functions-
 # New!
 ## (Beta)
-plural-Converts any wprd to plural form.
+plural-Converts any word to plural form.
 e.g. plural("python")-"pythons"
 
 list_to_str: Convert a list into a string e.g. ['p','y','t','h','o','n']-'python'

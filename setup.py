@@ -8,7 +8,7 @@ LONG_DESCRIPTION = '''
 A package that has several functions to work with strings and English words.
 Functions-
 
-plural-Converts any wprd to plural form.
+plural-Converts any word to plural form.
 e.g. plural("python")-"pythons"
 
 list_to_str: Convert a list into a string e.g. ['p','y','t','h','o','n']-'python'

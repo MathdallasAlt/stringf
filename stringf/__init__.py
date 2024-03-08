@@ -1,2 +1,1 @@
-from stringf import *
-
+from stringf import string

@@ -16,62 +16,67 @@ e.g. plural("python")-"pythons"
 More functions coming soon!
 """
 
-class string:
-    
-    def list_to_str(list):
-        strl=""
-        for e in list:
-            strl+= e
-        return strl
-    def join(word,word2):
-        return str(word)+str(word2)
-    def add(word,pos,word2):
-        word=list(word)
-        word.insert(pos,word2)
-        strl=""
-        for e in word:
-            strl+= e
-        return strl
-    def reverse(word):
-        word=list(word)
-        nword=word[::-1]
-        strl=""
-        for e in nword:
-            strl+= e
-        return strl
-    def plural(word):
-        vowel=list("aeiou")
-        consonant=list("bcdfghjklmnpqrstvwxyz")
-        word=list(word)
-        if word[-1]=="f" or word[-1]=="ef":
-            word.append("s")
-        elif word[-1]=="s" or word[-1] == "x" or word[-1] == "z":
-            word.append("es")
-        elif (word[-1]=="s" and word[-2]=="s") or (word[-1]=="s" and word[-2]=="h") or (word[-1]=="c" and word[-2]=="h"):
-            word.append("es")
-        elif word[-1]=="s":
-            word.append("ses")
-        elif word[-1]=="z":
-            word.append("zes")
-        elif word[-1]=="y"and word[-2] in vowel:
-            word.append("s")
-        elif word[-1]=="y" and word[-2] in consonant:
-            word[-1]="ies"
-        elif word[-1]=="o":
-            word.append("es")
-        elif word[-2]=="u"and word[-1]=="s":
-            word.pop(-1)
-            word[-2]="i"
-        elif word[-2]=="i"and word[-1]=="s":
-            word[-2]="e"
-        elif word[-2]=="o"and word[-1]=="n":
-            word.pop(-1)
-            word[-2]="a"
-        elif word[-1]=="h":
-            word.append("es")
-        else:
-            word.append("s")
-        strl=""
-        for e in word:
-            strl+= e
-        return strl
+
+def list_to_str(list):
+    strl=""
+    for e in list:
+        strl+= e
+    return strl
+
+def join(word,word2):
+    return str(word)+str(word2)
+
+def add(word,pos,word2):
+    word=list(word)
+    word.insert(pos,word2)
+    strl=""
+    for e in word:
+        strl+= e
+    return strl
+
+def reverse(word):
+    word=list(word)
+    nword=word[::-1]
+    strl=""
+    for e in nword:
+        strl+= e
+    return strl
+
+def plural(word):
+    vowel=list("aeiou")
+    consonant=list("bcdfghjklmnpqrstvwxyz")
+    word=list(word)
+    #Singular to plural conditionals
+    if word[-1]=="f" or word[-1]=="ef":
+        word.append("s")
+    elif word[-1]=="s" or word[-1] == "x" or word[-1] == "z":
+        word.append("es")
+    elif (word[-1]=="s" and word[-2]=="s") or (word[-1]=="s" and word[-2]=="h") or (word[-1]=="c" and word[-2]=="h"):
+        word.append("es")
+    elif word[-1]=="s":
+        word.append("ses")
+    elif word[-1]=="z":
+        word.append("zes")
+    elif word[-1]=="y"and word[-2] in vowel:
+        word.append("s")
+    elif word[-1]=="y" and word[-2] in consonant:
+        word[-1]="ies"
+    elif word[-1]=="o":
+        word.append("es")
+    elif word[-2]=="u"and word[-1]=="s":
+        word.pop(-1)
+        word[-2]="i"
+    elif word[-2]=="i"and word[-1]=="s":
+        word[-2]="e"
+    elif word[-2]=="o"and word[-1]=="n":
+        word.pop(-1)
+        word[-2]="a"
+    elif word[-1]=="h":
+        word.append("es")
+    else:
+        word.append("s")
+    #List to string
+    strl=""
+    for e in word:
+        strl+= e
+    return strl

@@ -1,14 +1,19 @@
 This is a Python module providing some functions related to lists and strings.
 
 Functions-
-list_to_str(word):Convert a list into a string e.g. ['p','y','t','h','o','n']-'python'
+# New!
+## (Beta)
+plural-Converts any wprd to plural form.
+e.g. plural("python")-"pythons"
 
-join(word,word2):joins two words e.g. 'pyt','hon'-'python'
+list_to_str: Convert a list into a string e.g. ['p','y','t','h','o','n']-'python'
 
-add(word,pos,word2):Like the join() functions but can join word after the letter at the specified position
+join: joins two words e.g. 'pyt','hon'-'python'
+
+add: Like the join() functions but can join word after the letter at the specified position
 e.g. add("bore",1,"ef")-'before'
 
-reverse(word):Reverses a string 
+reverse: Reverses a string 
 e.g. reverse("python")-"nohtyp"
 
 More functions coming soon!

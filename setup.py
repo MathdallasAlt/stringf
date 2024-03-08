@@ -5,6 +5,9 @@ import os
 VERSION = '0.0.4'
 DESCRIPTION = 'Functions for strings'
 LONG_DESCRIPTION = '''
+-NEW-
+Current version-0.0.4
+Fixed bugs
 A package that has several functions to work with strings and English words.
 Functions-
 

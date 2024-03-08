@@ -1,4 +1,6 @@
 This is a Python module providing some functions related to lists and strings.
+### Disclamer-The is to manage
+###Download at https://pypi.org/project/stringf/
 
 Functions-
 # New!

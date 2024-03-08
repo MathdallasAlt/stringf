@@ -12,4 +12,3 @@ reverse(word):Reverses a string
 e.g. reverse("python")-"nohtyp"
 
 More functions coming soon!
-Install on pypi.org:

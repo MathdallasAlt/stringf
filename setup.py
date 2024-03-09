@@ -2,12 +2,13 @@ from setuptools import setup, find_packages
 import codecs
 import os
 
-VERSION = '0.0.6'
+VERSION = '0.0.7'
 DESCRIPTION = 'Functions for strings and lists'
 LONG_DESCRIPTION = '''
+Current version-0.0.7
 String:
     -NEW-
-    Current version-0.0.5
+    Added list_to_str(list) function
     Fixed module not importing bug
     A package that has several functions to work with strings and English words.
     Functions-

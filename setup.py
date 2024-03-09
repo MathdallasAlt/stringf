@@ -5,7 +5,6 @@ import os
 VERSION = '0.0.7'
 DESCRIPTION = 'Functions for strings and lists'
 LONG_DESCRIPTION = '''
-Current version-0.0.7
 String:
     -NEW-
     Added list_to_str(list) function

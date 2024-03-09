@@ -1,6 +1,7 @@
 """
 stringf is a Python modules that has some functions related to lists and mainly strings
 Functions-
+
 list_to_str(word):Convert a list into a string e.g. ['p','y','t','h','o','n']-'python'
 
 join(word,word2):joins two words e.g. 'pyt','hon'-'python'
@@ -15,7 +16,6 @@ plural(word):Converts most words into plural form!
 e.g. plural("python")-"pythons"
 More functions coming soon!
 """
-
 
 def list_to_str(list):
     strl=""

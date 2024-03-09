@@ -2,27 +2,29 @@ from setuptools import setup, find_packages
 import codecs
 import os
 
-VERSION = '0.0.5'
-DESCRIPTION = 'Functions for strings'
+VERSION = '0.0.6'
+DESCRIPTION = 'Functions for strings and lists'
 LONG_DESCRIPTION = '''
--NEW-
-Current version-0.0.5
-Fixed bugs
-A package that has several functions to work with strings and English words.
-Functions-
+String:
+    -NEW-
+    Current version-0.0.5
+    Fixed module not importing bug
+    A package that has several functions to work with strings and English words.
+    Functions-
 
-plural-Converts any word to plural form.
-e.g. plural("python")-"pythons"
+    plural-Converts any word to plural form.
+    e.g. plural("python")-"pythons"
 
-list_to_str: Convert a list into a string e.g. ['p','y','t','h','o','n']-'python'
+    join: joins two words e.g. 'pyt','hon'-'python'
 
-join: joins two words e.g. 'pyt','hon'-'python'
+    add: Like the join() functions but can join word after the letter at the specified position
+    e.g. add("bore",1,"ef")-'before'
 
-add: Like the join() functions but can join word after the letter at the specified position
-e.g. add("bore",1,"ef")-'before'
+    reverse: Reverses a string 
+    e.g. reverse("python")-"nohtyp"
 
-reverse: Reverses a string 
-e.g. reverse("python")-"nohtyp"
+Lists:
+    list_to_str: Convert a list into a string e.g. ['p','y','t','h','o','n']-'python'
 
 More functions coming soon!
 '''

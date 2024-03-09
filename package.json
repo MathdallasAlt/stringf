@@ -20,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/MathdallasAlt/stringf/issues"
   },
-  "homepage": "https://github.com/MathdallasAlt/stringf#readme",
-  "publishConfig": {
-    "@mathdallasalt:registry": "https://npm.pkg.github.com"
-  }
+  "homepage": "https://github.com/MathdallasAlt/stringf#readme"
 }
